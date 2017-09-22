@@ -32,13 +32,14 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="F:\STDIO_SERVER\STDIO_SERVER.js" />
+    <ResourceCompile Include="DemoCPP.rc" />
+    <ResourceCompile Include="DemoCPP1.rc" />
   </ItemGroup>
 </Project>
